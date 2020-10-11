@@ -1,2 +1,3 @@
 # use_reducer
-Created with CodeSandbox
+
+Created with CodeSandbox.Simple React Hook boilerplate.
