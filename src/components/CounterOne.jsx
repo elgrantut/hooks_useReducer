@@ -19,7 +19,7 @@ function CounterOne() {
 
   return (
     <div>
-      <div>Count - {count}</div>
+      <h5 className="font-weight-bold">Count - {count}</h5>
       <button
         onClick={() => dispatch('increment')}
         className="btn btn-primary my-2"
