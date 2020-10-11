@@ -1,5 +1,5 @@
 import React from 'react'
-import CounterOne from './CounterTwo'
+import Counter from './CounterThree'
 import '../styles.css'
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
       <h2 className="text-primary font-weight-light">
         Counter buttons using hooks.
       </h2>
-      <CounterOne />
+      <Counter />
     </div>
   )
 }
