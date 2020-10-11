@@ -20,9 +20,21 @@ function CounterOne() {
   return (
     <div>
       <div>Count - {count}</div>
-      <button className="btn btn-primary my-2">Increment</button>
-      <button className="btn btn-primary m-2">Decrement</button>
-      <button className="btn btn-primary m-2">Reset</button>
+      <button
+        onClick={() => dispatch('increment')}
+        className="btn btn-primary my-2"
+      >
+        Increment
+      </button>
+      <button
+        onClick={() => dispatch('decrement')}
+        className="btn btn-primary m-2"
+      >
+        Decrement
+      </button>
+      <button onClick={() => dispatch('reset')} className="btn btn-primary m-2">
+        Reset
+      </button>
     </div>
   )
 }
